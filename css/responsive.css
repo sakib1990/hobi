@@ -367,7 +367,8 @@
   }
   .slider-img img {
     margin-bottom: 14px;
-    margin-top: 20px;
+    margin-top: 93px;
+    margin-left: 19px;
   }
   
   .more-btn .btn {
@@ -387,12 +388,12 @@
     margin-right: 10px;
     padding-left: 9px;
   }
-.mean-container a.meanmenu-reveal {
-	margin-right: 75px;
-}
-.header-top-area{
-  padding: 10px 0px;
-}
+  .mean-container a.meanmenu-reveal {
+    margin-right: 12px;
+  }
+  .mean-container a.meanmenu-reveal {
+    top: -24px;
+  }
 .main-menu {
 	padding: 15px 0;
 }
@@ -414,16 +415,17 @@
 	margin-top: -61px;
 }
 .single-service h4 {
-	font-size: 22px;
+	font-size: 20px;
 }
 .single-service p {
-	font-size: 12px;
+	font-size: 9px;
 }
 .single-service ul li i {
-	font-size: 18px;
+  font-size: 16px;
+  padding-right: 20px;
 }
 .single-service ul li a {
-	font-size: 12px;
+	font-size: 11px;
 }
 .single-service {
 	padding: 40px 25px;

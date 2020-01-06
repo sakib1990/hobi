@@ -439,9 +439,9 @@ box-shadow: 0px 8px 16px 0px rgb( 255, 194, 200 );
 	font-size: 12px;
 }
 .progress-btn .btn:hover {
-	background: #ff3;
-	color: #000a2d;
-	border: 2px solid #000a2d;
+	background: #6e7797;
+	color: #fff;
+	border: 2px solid #6e7797;
 }
 .about-btn .btn {
 	background: #ff3d4f;

@@ -79,6 +79,7 @@
   }
 }
 
+
  
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -295,26 +296,16 @@
 }
 
  
-/* Extra small Device. */
-@media (max-width: 767px) {
-  .slider-content span {
-    font-size: 12px;
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .mean-container a.meanmenu-reveal {
+    top: 10px;
   }
-  .slider-content h2 {
-    font-size: 35px;
-  }
-  .slider-content p {
-    font-size: 9px;
-  }
-  .slider-img img {
-    margin-bottom: 14px;
-    margin-top: 20px;
-  }
-  
   .more-btn .btn {
     padding: 17px 35px;
     font-size: 10px;
   }
+  
   .fas.fa-play {
     height: 35px;
     width: 35px;
@@ -339,6 +330,79 @@
 	margin-left: 173px;
 	margin-top: -74px;
 }
+.portfolio-menu button {
+	padding: 0 12px;
+}
+.news-text span {
+	font-size: 13px;
+	margin-right: 15px;
+}
+.news-text h2 {
+	font-size: 22px;
+	padding-right: 175px;
+}
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .slider-content span {
+    font-size: 12px;
+  }
+  .slider-content h2 {
+    font-size: 35px;
+  }
+  .slider-content p {
+    font-size: 9px;
+  }
+  .slider-img img {
+    margin-bottom: 14px;
+    margin-top: 20px;
+  }
+  
+  .more-btn .btn {
+    padding: 12px 24px;
+    font-size: 10px;
+  }
+  .more-btn a {
+    margin-right: 7px;
+    font-size: 11px;
+  }
+  .fas.fa-play {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 9px;
+  }
+.mean-container a.meanmenu-reveal {
+	margin-right: 75px;
+}
+.header-top-area{
+  padding: 10px 0px;
+}
+.main-menu {
+	padding: 15px 0;
+}
+.design h2 {
+	font-size: 30px;
+	margin-bottom: 19px;
+}
+.about-details p {
+	font-size: 11px;
+}
+.about-btn .btn {
+  padding: 10px 20px;
+  font-size: 10px;
+}
+.progress-btn .btn {
+  padding: 10px 20px;
+  font-size: 10px;
+	margin-left: 129px;
+	margin-top: -61px;
+}
 .single-service h4 {
 	font-size: 22px;
 }
@@ -355,39 +419,59 @@
 	padding: 40px 25px;
 }
 .project-text h2 {
-	font-size: 38px;
+	font-size: 30px;
+}
+.project-text span {
+	font-size: 12px;
 }
 .project-button {
 	margin-top: 0px;
 }
 .get-btn .btn {
 	font-size: 10px;
-	padding: 15px 40px;
+	padding: 12px 24px;
 }
 .mail-btn .btn {
-	padding: 15px 40px;
-	margin-left: 168px;
-	margin-top: -68px;
+	padding: 12px 24px;
+	margin-left: 129px;
+	margin-top: -66px;
 	font-size: 10px;
 }
 .fea-content h2 {
-	font-size: 38px;
+	font-size: 30px;
+}
+.fea-content span {
+	font-size: 12px;
 }
 .fea-icon i {
 	font-size: 18px;
 	padding: 28px 28px;
 }
 .fea-details span {
-	font-size: 12px;
+	font-size: 8px;
 }
 .fea-details h2 {
-	font-size: 22px;
+	font-size: 15px;
 }
 .fea-text p {
-	font-size: 12px;
+	font-size: 10px;
+}
+.fea-icon i {
+	font-size: 15px;
+	padding: 25px 25px;
+}
+.fea-icon {
+  padding-right: 20px;
+}
+.build-text h2 {
+  font-size: 40px;
 }
 .portfolio-menu button {
 	padding: 0 12px;
+}
+.portfolio-menu button {
+	padding: 0px 3px;
+	font-size: 10px;
 }
 .staff-text h2 {
 	font-size: 45px;
@@ -483,16 +567,17 @@
 	font-size: 12px;
 }
 .news-text h2 {
-	font-size: 22px;
-	padding-right: 175px;
+	font-size: 12px;
+	padding-right: 0px;
 }
 .feed-area {
 	padding: 28px 30px;
 }
 .news-text span {
-	font-size: 13px;
+	font-size: 8px;
 	margin-right: 15px;
 }
+
 .footer-text p {
 	font-size: 6px;
 	margin-top: 10px;
@@ -529,12 +614,12 @@
 	font-size: 11px;
 	padding-right: 0px;
 }
+.blue-bg {
+  padding: 0px;
+}
 }
 
-/* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
 
-}
 
 
 /* retina query */

@@ -286,12 +286,11 @@ background: #444;
 	font-size: 20px;
 }
 .slider-img img {
-	height: 100%;
 	max-width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: block;
-	margin-bottom: 160px;
+	
 }
 .more-btn .btn {
 	background: #ff3d4f;
@@ -1026,10 +1025,14 @@ box-shadow: 0px 8px 16px 0px rgb( 255, 194, 200 );
 }
 
 /* footer */
+.blue-footer-bg{
+	background: #000a2d;
+}
 .footer-text p {
 	font-size: 14px;
 	color: #a4acc9;
 	line-height: 26px;
+	margin-top: 10px;
 }
 .footer-social-icon a {
 	color: #a4acc9;
@@ -1042,15 +1045,16 @@ box-shadow: 0px 8px 16px 0px rgb( 255, 194, 200 );
 
 
 .footer-designer h2 {
-	font-size: 40px;
+	font-size: 38px;
 	color: #fff;
-	padding-right: 20px;
 	line-height: 50px;
+	margin-bottom: 60px;
 }
-
 .sent h6 {
 	color: #afb5c9;
 	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	
 	
 }
@@ -1058,6 +1062,8 @@ box-shadow: 0px 8px 16px 0px rgb( 255, 194, 200 );
 .call h6 {
 	color: #afb5c9;
 	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	
 }
 
@@ -1065,6 +1071,8 @@ box-shadow: 0px 8px 16px 0px rgb( 255, 194, 200 );
 .touch h6 {
 	color: #afb5c9;
 	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	
 	
 }
@@ -1073,12 +1081,12 @@ box-shadow: 0px 8px 16px 0px rgb( 255, 194, 200 );
 	color: #fff;
 	font-size: 14px;
 	padding-right: 10px;
+	
 }
 .call span {
 	color: #fff;
 	font-size: 14px;
-	
-	
+	padding-right: 45px;
 }
 .touch span {
 	color: #fff;

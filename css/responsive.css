@@ -341,6 +341,16 @@
 	font-size: 22px;
 	padding-right: 175px;
 }
+.contact-text h2 {
+	font-size: 45px;
+}
+.contact-cta input {
+	width: 420px;
+}
+.contact-cta textarea {
+	height: 160px;
+	width: 420px;
+}
 }
 
 
@@ -482,22 +492,29 @@
 .portfolio-wrapper {
 	text-align: center;
 }
-.staff-text span {
-	font-size: 14px;
-	display: block;
-	text-align: center;
+.timeline-content span {
+	font-size: 10px;
 }
 .timeline-content h2 {
 	font-size: 40px;
 }
 .timeline-text span {
-  font-size: 14px;
+	font-size: 10px;
 }
 .timeline-text h4 {
-	font-size: 21px;
+	font-size: 16px;
 }
 .timeline-text p {
-	font-size: 12px;
+	font-size: 8px;
+}
+.timeline-text::before {
+	height: 11%;
+	width: 8%;
+}
+.timeline-icon {
+	top: 46%;
+	padding: 10px 10px;
+	left: -16px;
 }
 .pb-80 {
 	padding-bottom: 160px;
@@ -506,15 +523,74 @@
 	padding-top: 40px;
 }
 .timeline-icon {
-	top: 76%;
+	top: 69%;
 	padding: 15px 15px;
 	left: -23px;
 }
+.team-heading span {
+	font-size: 12px;
+}
 .team-heading h2 {
 	font-size: 45px;
+	margin-top: 30px;
+}
+.team-text h5 {
+	font-size: 18px;
+}
+.team-text span {
+	font-size: 11px;
+}
+.team-social-icon a {
+	padding: 0 8px;
 }
 .single-team-img img {
 	width: 100%;
+}
+.contact-form {
+	margin-top: 45px;
+}
+.contact-text h2 {
+	font-size: 45px;
+}
+.rating a {
+	font-size: 9px;
+}
+.single-text h6 {
+	font-size: 13px;
+	margin-left: 76px;
+	margin-top: -15px;
+	
+}
+.single-text p {
+	margin-top: 30px;
+	font-size: 9px;
+	line-height: 21px;
+}
+.test-details h6 {
+	font-size: 12px;
+}
+.test-details span {
+	font-size: 8px;
+}
+.test-text {
+	text-align: center;
+}
+.test-text h2 {
+	font-size: 35px;
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+.testimonial-active .slick-next.slick-arrow {
+	right: 42px;
+}
+.testimonial-active .slick-arrow {
+	top: -26%;
+}
+.testimonial-active button i {
+	width: 0px;
+}
+.testimonial-active button i {
+	font-size: 25px;
 }
 .pb-190 {
 	padding-bottom: 100px;
@@ -522,49 +598,31 @@
 .pt-100 {
 	padding-top: 70px;
 }
-.contact-text h2 {
-	font-size: 45px;
-}
-.contact-cta input {
-	width: 420px;
-}
-.contact-cta textarea {
-	height: 160px;
-	width: 420px;
-}
-.test-text {
-	text-align: center;
-}
-.testimonial-active button i {
-	width: 22px;
-}
-.test-text h2 {
-	font-size: 47px;
-	margin-top: 35px;
-	margin-bottom: 40px;
-}
+
+
 .news-heading h2 {
-	font-size: 50px;
+	font-size: 40px;
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
 .news-meta span {
-	font-size: 13px;
+  font-size: 8px;
+  margin: 1px;
 }
 .news-headline h2 {
-	font-size: 21px;
-	line-height: 30px;
+	font-size: 14px;
+	line-height: 25px;
 	margin-top: 24px;
 	margin-bottom: 24px;
 	padding-right: 4px;
 }
 .news-headline p {
-	font-size: 12px;
-	line-height: 24px;
-	padding-right: 41px;
+	font-size: 9px;
+	line-height: 22px;
+	padding-right: 0px; */
 }
 .news-headline a {
-	font-size: 12px;
+	font-size: 10px;
 }
 .news-text h2 {
 	font-size: 12px;
@@ -588,31 +646,33 @@
 }
 
 .footer-designer h2 {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 25px;
 	margin-top: -7px;
 	margin-bottom: 20px;
 }
 .sent h6 {
-	font-size: 13px;
+	font-size: 12px;
 }
 .sent span {
-	font-size: 10px;
+  font-size: 10px;
+  padding-right: 93px;
 }
 .call h6 {
-	font-size: 13px;
+	font-size: 12px;
 	margin-top: -1px;
 }
 .call span {
-	font-size: 10px;
+  font-size: 10px;
+  padding-right: 110px;
 }
 .touch h6 {
-	font-size: 13px;
+	font-size: 12px;
 	margin-top: -1px;
 }
 .touch span {
 	font-size: 11px;
-	padding-right: 0px;
+	padding-right: 111px;
 }
 .blue-bg {
   padding: 0px;

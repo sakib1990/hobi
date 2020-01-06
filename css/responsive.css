@@ -15,6 +15,18 @@
   .slider-content p {
     font-size: 16px;
   }
+  .download-btn .btn {
+    font-size: 13px;
+    padding: 19px 36px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .info-bar {
+    margin-top: 17px;
+  }
+  .info-bar a {
+    padding: 15px 15px;
+  }
   .pro-img img {
     width: 100%;
   }
@@ -105,6 +117,10 @@
     font-size: 15px;
     margin-right: 12px;
     padding-left: 16px;
+  }
+  .mean-container a.meanmenu-reveal {
+    margin-top: -43px;
+    margin-right: -29px;
   }
   .more-btn a {
     margin-right: 10px;
@@ -301,6 +317,10 @@
   .mean-container a.meanmenu-reveal {
     top: 10px;
   }
+  .mean-container a.meanmenu-reveal {
+    margin-top: -11px;
+    margin-right: 22px;
+  }
   .more-btn .btn {
     padding: 17px 35px;
     font-size: 10px;
@@ -370,7 +390,9 @@
     margin-top: 93px;
     margin-left: 19px;
   }
-  
+  .mean-container a.meanmenu-reveal {
+    top: -25px;
+  }
   .more-btn .btn {
     padding: 12px 24px;
     font-size: 10px;
@@ -388,12 +410,7 @@
     margin-right: 10px;
     padding-left: 9px;
   }
-  .mean-container a.meanmenu-reveal {
-    margin-right: 12px;
-  }
-  .mean-container a.meanmenu-reveal {
-    top: -24px;
-  }
+  
 .main-menu {
 	padding: 15px 0;
 }
